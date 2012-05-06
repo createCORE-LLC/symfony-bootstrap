@@ -12,6 +12,12 @@ Just download install node and less and it should run immediatly!
 
 If it doesnt, open issues make PR's etc.
 
-We just started with this!
 
+For Symfony 2.0:
+
+``` bash
+git clone git@github.com:phiamo/symfony-bootstrap-sandbox.git
+cd symfony-bootstrap-sandbox
+bin/vendors  install
+```
 
