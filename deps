@@ -68,8 +68,9 @@
     version=origin/v2.x_sf2.0
     
 [twittersbootstrap]
-    git = "https://github.com/twitter/bootstrap.git"
+    git = "git://github.com/twitter/bootstrap.git"
     target = "/bundles/Mopa/BootstrapBundle/Resources/bootstrap"
+    version = v1.4.0
     
 [KnpMenuBundle]
     git = "http://github.com/KnpLabs/KnpMenuBundle.git"
