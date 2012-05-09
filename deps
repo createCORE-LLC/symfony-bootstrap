@@ -62,6 +62,9 @@
     target=/bundles/Symfony/Bundle/AsseticBundle
     version=v1.0.1
 
+[mopa-composer-bridge]
+    git=http://github.com/phiamo/MopaComposerBridge.git
+    
 [MopaBootstrapBundle]
     git = "http://github.com/phiamo/MopaBootstrapBundle.git"
     target = "/bundles/Mopa/BootstrapBundle"
