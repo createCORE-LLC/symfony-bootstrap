@@ -67,12 +67,17 @@
     
 [MopaBootstrapBundle]
     git = "http://github.com/phiamo/MopaBootstrapBundle.git"
-    target = "/bundles/Mopa/BootstrapBundle"
-    version=origin/v2.x_sf2.0
+    target = "/bundles/Mopa/Bundle/BootstrapBundle"
+    version=origin/v2.0.x
+
+[MopaBootstrapSandboxBundle]
+    git = "http://github.com/phiamo/MopaBootstrapSandboxBundle.git"
+    target = "/bundles/Mopa/Bundle/BootstrapSandboxBundle"
+    version=origin/v2.0.x
     
 [twittersbootstrap]
     git = "git://github.com/twitter/bootstrap.git"
-    target = "/bundles/Mopa/BootstrapBundle/Resources/bootstrap"
+    target = "/bundles/Mopa/Bundle/BootstrapBundle/Resources/bootstrap"
     version = v2.0.3
     
 [KnpMenuBundle]

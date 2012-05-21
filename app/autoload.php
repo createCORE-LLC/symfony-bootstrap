@@ -15,7 +15,7 @@ $loader->registerNamespaces(array(
     'Assetic'          => __DIR__.'/../vendor/assetic/src',
     'Metadata'         => __DIR__.'/../vendor/metadata/src',
     'Mopa\\Bridge'    => __DIR__.'/../vendor/mopa-composer-bridge/src',
-    'Mopa\\BootstrapBundle'             => __DIR__.'/../vendor/bundles',
+    'Mopa'             => __DIR__.'/../vendor/bundles',
     'Knp\\Component'   => __DIR__.'/../vendor/knp-components/src',
     'Knp\\Menu'        => __DIR__.'/../vendor/knpmenu/src',
     'Knp\\Bundle'      => __DIR__.'/../vendor/bundles',
