@@ -134,7 +134,6 @@ foreach ($deps as $name => $dep) {
         if ($current_rev === $rev) {
             continue;
         }
-
         system(sprintf('cd %s && git fetch origin && git reset --hard %s', escapeshellarg($installDir), escapeshellarg($rev)));
     }
 

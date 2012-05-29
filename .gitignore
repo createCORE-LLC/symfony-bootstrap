@@ -18,8 +18,8 @@ nbproject/
 bin/envvars
 
 app/cache/*
+app/.*cache
 app/logs/*
-app/*.cache
 vendor/*
 web/bundles/
 web/css/*

@@ -1,6 +1,6 @@
 [symfony]
     git=http://github.com/symfony/symfony.git
-    version=origin/2.0
+    version=v2.0.14
 
 [twig]
     git=http://github.com/fabpot/Twig.git
@@ -61,3 +61,32 @@
     git=http://github.com/symfony/AsseticBundle.git
     target=/bundles/Symfony/Bundle/AsseticBundle
     version=v1.0.1
+
+[mopa-composer-bridge]
+    git=http://github.com/phiamo/MopaComposerBridge.git
+    
+[MopaBootstrapBundle]
+    git = "http://github.com/phiamo/MopaBootstrapBundle.git"
+    target = "/bundles/Mopa/Bundle/BootstrapBundle"
+    version=origin/v2.0.x
+
+[MopaBootstrapSandboxBundle]
+    git = "http://github.com/phiamo/MopaBootstrapSandboxBundle.git"
+    target = "/bundles/Mopa/Bundle/BootstrapSandboxBundle"
+    version=origin/v2.0.x-deps
+    
+[twittersbootstrap]
+    git = "git://github.com/twitter/bootstrap.git"
+    target = "/bundles/Mopa/Bundle/BootstrapBundle/Resources/bootstrap"
+    version = v2.0.3
+    
+[KnpMenuBundle]
+    git = "http://github.com/KnpLabs/KnpMenuBundle.git"
+    target = "/bundles/Knp/Bundle/MenuBundle"
+
+[knp-components]
+    git=http://github.com/KnpLabs/knp-components.git
+    
+[knpmenu]
+    git = "http://github.com/KnpLabs/KnpMenu.git"
+    target = "/knpmenu"
